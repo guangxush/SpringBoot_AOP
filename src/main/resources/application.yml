@@ -1,0 +1,12 @@
+# base URL
+server:
+  port: 8085
+  servlet:
+    context-path: /server
+    multipart:
+      max-file-size: 20M
+      max-request-size: 20M
+
+spring:
+  aop:
+    auto: true
